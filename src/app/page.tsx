@@ -1,5 +1,9 @@
 import React from "react";
-
+import Header from "@/components/Header/Header.jsx";
 export default function page() {
-  return <div>Porsche!</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
